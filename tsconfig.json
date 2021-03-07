@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "composite": false
+    },
+    "files": [],
+    "references": [
+        {
+            "path": "packages/core"
+        },
+        {
+            "path": "packages/rollup-plugin"
+        },
+        {
+            "path": "packages/webpack-plugin"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ES6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "composite": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "paths": {
+            "@statistics-plugin/core": ["packages/core/*"]
+        }
+    }
+}

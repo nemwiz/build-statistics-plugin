@@ -1,0 +1,34 @@
+{
+    "name": "webpack-plugin-build-statistics",
+    "version": "0.0.1",
+    "description": "Webpack plugin for collecting statistics about your builds",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "start": "",
+        "test": "webpack --config integration-test/webpack.config.js"
+    },
+    "dependencies": {
+        "@statistics-plugin/core": "0.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.2",
+        "webpack": "^5.24.3",
+        "webpack-cli": "^4.5.0"
+    },
+    "keywords": [
+        "webpack-plugin",
+        "webpack-plugin-build-statistics",
+        "build-statistics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nemwiz/build-statistics-plugin.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nemwiz/build-statistics-plugin/issues"
+    },
+    "homepage": "https://github.com/nemwiz/build-statistics-plugin#readme"
+}
