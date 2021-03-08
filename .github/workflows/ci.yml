@@ -1,11 +1,25 @@
 name: statistics-plugin-ci
 on: [push]
 jobs:
-  install-build-test:
+  install:
+    name: Install dependencies
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: CultureHQ/actions-yarn@v1.0.1
       - run: yarn install
-      - run: yarn build
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: CultureHQ/actions-yarn@v1.0.1
       - run: yarn test
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: CultureHQ/actions-yarn@v1.0.1
+      - run: yarn build
+
