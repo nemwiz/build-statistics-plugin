@@ -12,7 +12,8 @@
         "clean": "lerna exec -- rm -rf dist && lerna exec -- rm -rf integration-test/dist-test",
         "start": "webpack serve --config webpack.config.js",
         "test": "lerna run test --scope @statistics-plugin/core --stream",
-        "test:integration": "node assert-integration.js"
+        "test:integration": "node assert-integration.js",
+        "release": "lerna publish --yes"
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^11.2.0",
