@@ -1,16 +1,18 @@
 {
     "name": "webpack-plugin-build-statistics",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Webpack plugin for collecting statistics about your builds",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "start": "",
         "test": "webpack --config integration-test/webpack.config.js"
     },
     "dependencies": {
-        "@statistics-plugin/core": "0.0.1"
+        "@statistics-plugin/core": "^0.0.2"
     },
     "devDependencies": {
         "typescript": "^4.2.2",

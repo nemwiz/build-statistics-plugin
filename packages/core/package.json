@@ -1,10 +1,12 @@
 {
     "name": "@statistics-plugin/core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Core package that contains all the logic which is shared across plugins",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "private": true,
     "scripts": {
         "build": "tsc --build",

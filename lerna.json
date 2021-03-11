@@ -1,11 +1,15 @@
 {
     "npmClient": "yarn",
     "useWorkspaces": true,
-    "packages": ["packages/*"],
-    "version": "0.0.1",
+    "packages": [
+        "packages/*"
+    ],
+    "version": "0.0.2",
     "command": {
         "version": {
-            "allowBranch": ["main"],
+            "allowBranch": [
+                "main"
+            ],
             "conventionalCommits": true,
             "noCommitHooks": true
         }
