@@ -13,7 +13,8 @@ jobs:
       - run: yarn install
       - run: yarn test
       - run: yarn build
-    - if: ${{ github.ref == 'refs/heads/main' }}
-      run: yarn release
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Release
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
