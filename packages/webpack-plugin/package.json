@@ -4,6 +4,7 @@
     "description": "Webpack plugin for collecting statistics about your builds",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": ["dist"],
     "scripts": {
         "start": "",
         "test": "webpack --config integration-test/webpack.config.js"

@@ -2,5 +2,12 @@
     "npmClient": "yarn",
     "useWorkspaces": true,
     "packages": ["packages/*"],
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "command": {
+        "version": {
+            "allowBranch": ["main"],
+            "conventionalCommits": true,
+            "noCommitHooks": true
+        }
+    }
 }

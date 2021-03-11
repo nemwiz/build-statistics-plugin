@@ -4,6 +4,7 @@
     "description": "Rollup plugin for collecting statistics about your builds",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": ["dist"],
     "scripts": {
         "start": "",
         "test": "rollup --config integration-test/rollup.config.js"
