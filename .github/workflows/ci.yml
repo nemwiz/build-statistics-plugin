@@ -9,7 +9,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: 'lerna.log'
-          path: 'lerna-debug.log'
+          path: './lerna-debug.log'
       - uses: actions/setup-node@v2
         with:
           node-version: '14.x'
@@ -24,6 +24,6 @@ jobs:
         run: yarn test:integration
       - name: Release
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: yarn release
+        run: ls -l && yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
