@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
@@ -16,6 +16,8 @@ jobs:
         run: yarn test
       - name: Build
         run: yarn build
+      - name: Integration test
+        run: yarn test:integration
       - name: Release
         if: ${{ github.ref == 'refs/heads/main' }}
         run: yarn release
