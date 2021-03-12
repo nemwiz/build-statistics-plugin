@@ -24,6 +24,7 @@ jobs:
         run: yarn test:integration
       - name: Release
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: ls -l && yarn release
+        continue-on-error: true
+        run: ls -l && yarn release && ls -l && cat lerna-debug.log
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
