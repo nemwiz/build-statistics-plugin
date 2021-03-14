@@ -28,3 +28,5 @@ jobs:
         run: ls -l && yarn release && ls -l && cat lerna-debug.log
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Print log
+        run: ls -l && cat lerna-debug.log
