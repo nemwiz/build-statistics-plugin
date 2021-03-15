@@ -1,6 +1,6 @@
 {
     "name": "rollup-plugin-build-statistics",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "Rollup plugin for collecting statistics about your builds",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
         "test": "rollup --config integration-test/rollup.config.js"
     },
     "dependencies": {
-        "@statistics-plugin/core": "^0.0.10"
+        "@statistics-plugin/core": "^0.0.11"
     },
     "devDependencies": {
         "rollup": "^2.40.0",
