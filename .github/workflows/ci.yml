@@ -8,10 +8,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - uses: actions/upload-artifact@v2
-        with:
-          name: 'lerna.log'
-          path: './lerna-debug.log'
       - uses: actions/setup-node@v2
         with:
           node-version: '14.x'
@@ -26,13 +22,10 @@ jobs:
         run: yarn test:integration
       - name: Release
         if: ${{ github.ref == 'refs/heads/main' }}
-        continue-on-error: true
         run: |
           git config --global user.name 'nemwiz'
           git config --global user.email 'nemwiz@users.no.reply.github.com'
-          ls -l && yarn release && ls -l && cat lerna-debug.log
+          yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      - name: Print log
-        run: ls -l && cat lerna-debug.log
