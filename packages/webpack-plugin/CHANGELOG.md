@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6 (2021-03-15)
+
+**Note:** Version bump only for package webpack-plugin-build-statistics
+
+
+
+
+
 ## [0.0.5](https://github.com/nemwiz/build-statistics-plugin/compare/v0.0.4...v0.0.5) (2021-03-11)
 
 **Note:** Version bump only for package webpack-plugin-build-statistics
