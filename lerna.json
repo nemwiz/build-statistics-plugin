@@ -4,16 +4,14 @@
     "packages": [
         "packages/*"
     ],
-    "version": "0.0.15",
+    "version": "independent",
     "command": {
         "version": {
             "allowBranch": [
                 "main"
             ],
             "createRelease": "github",
-            "forcePublish": true,
-            "conventionalCommits": true,
-            "noCommitHooks": true
+            "conventionalCommits": true
         },
         "publish": {
             "registry": "https://registry.npmjs.org"
