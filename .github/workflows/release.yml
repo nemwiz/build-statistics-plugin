@@ -1,5 +1,5 @@
-name: statistics-plugin-ci
-on: [push]
+name: release
+on: [workflow_dispatch]
 jobs:
   build:
     name: Build
@@ -20,3 +20,11 @@ jobs:
         run: yarn build
       - name: Integration test
         run: yarn test:integration
+      - name: Release
+        run: |
+          git config --global user.name 'nemwiz'
+          git config --global user.email 'nemwiz@users.no.reply.github.com'
+          yarn release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
