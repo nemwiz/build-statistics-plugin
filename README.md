@@ -16,13 +16,13 @@ For Webpack run:
 
 `npm install --save-dev webpack-plugin-build-statistics`
 
-More info on setup in (Webpack plugin documentation)[https://www.npmjs.com/package/webpack-plugin-build-statistics]
+More info on setup in [Webpack plugin documentation](https://www.npmjs.com/package/webpack-plugin-build-statistics)
 
 For Rollup run:
 
 `npm install --save-dev rollup-plugin-build-statistics`
 
-More info on setup in (Rollup plugin documentation)[https://www.npmjs.com/package/rollup-plugin-build-statistics]
+More info on setup in [Rollup plugin documentation](https://www.npmjs.com/package/rollup-plugin-build-statistics)
 
 #### Running in dev mode
 `yarn install && yarn build`
