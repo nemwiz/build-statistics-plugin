@@ -6,6 +6,8 @@ export default class BuildStatisticsPlugin {
 
     apply(compiler: Compiler) {
         compiler.hooks.done.tap('Build Statistics Plugin', async (stats: Stats) => {
+
+            console.log('testiiiing');
             const buildTime = stats.compilation.endTime - stats.compilation.startTime;
             await collectBuildStatistics(buildTime, this.options);
         });
