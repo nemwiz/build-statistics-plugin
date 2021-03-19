@@ -1,6 +1,7 @@
 {
-    "name": "webpack-plugin-build-statistics",
-    "version": "0.0.16",
+    "name": "webpack5-integration-test",
+    "version": "0.0.1",
+    "private": true,
     "description": "Webpack plugin for collecting statistics about your builds",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -9,12 +10,12 @@
     ],
     "scripts": {
         "start": "",
-        "test:webpack5": "cd integration-test/webpack5 && yarn clean && yarn install && yarn test && cd ../..",
-        "test:webpack4": "cd integration-test/webpack4 && yarn clean && yarn install && yarn test && cd ../.."
+        "clean": "rm -rf dist-test && rm -rf node_modules && rm -rf yarn.lock",
+        "test": "webpack --config webpack.config.js"
     },
     "devDependencies": {
-        "@statistics-plugin/core": "^0.0.16",
-        "typescript": "^4.2.2"
+        "webpack": "^5.26.3",
+        "webpack-cli": "^4.5.0"
     },
     "keywords": [
         "webpack-plugin",

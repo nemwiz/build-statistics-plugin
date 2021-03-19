@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "build": "yarn clean && lerna run build --stream --scope @statistics-plugin/core && rollup --config",
-        "clean": "lerna exec -- rm -rf dist && lerna exec -- rm -rf integration-test/dist-test",
+        "clean": "lerna exec -- rm -rf dist && rm -rf `find -type d -name stats`",
         "start": "webpack serve --config webpack.config.js",
         "test": "lerna run test --scope @statistics-plugin/core --stream",
         "test:integration": "node assert-integration.js",
