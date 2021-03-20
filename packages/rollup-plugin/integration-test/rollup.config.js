@@ -1,4 +1,4 @@
-import buildStatistics from '../dist/index';
+const buildStatistics = require('../dist/index');
 
 export default {
     input: `./integration-test/dummy-app.js`,

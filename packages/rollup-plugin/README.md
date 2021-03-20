@@ -7,6 +7,7 @@ Plugin that keeps a continuous log of your build time.
 - Can be used as an evidence to show the business (PO's etc.) how slow build times impact the team and hinder
   productivity
 - By monitoring build time you can see if the optimizations in your Webpack config have really improved productivity
+- This plugin can help you to point out the differences between different machines e.g. if one of the developers has really slower builds than other it can be a sign of misconfiguration, poor hardware etc. 
 
 ## Installation and setup
 
@@ -37,6 +38,8 @@ You are all set! 🚀
 Now every time you make some changes the build time will be logged.
 
 All logs will be summarized on daily basis and you can find the data under `stats/build-summary.json` file.
+
+NOTE: You should probably `gitignore` the `stats` folder and all json files inside.
 
 ## Plugin options
 
