@@ -4,10 +4,13 @@ import typescript from 'rollup-plugin-typescript2';
 export default [
     {
         input: `packages/rollup-plugin/src/index.ts`,
-        output: {
-            file: `packages/rollup-plugin/dist/index.js`,
-            format: 'es',
-        },
+        output: [
+            {
+                file: `packages/rollup-plugin/dist/index.js`,
+                format: 'cjs',
+                exports: 'auto',
+            }
+        ],
         external: ['fs'],
         plugins: [nodeResolve(), typescript()],
     },
