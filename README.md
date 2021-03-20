@@ -7,6 +7,7 @@ Plugin that keeps a continuous log of your build time.
 - Can be used as an evidence to show the business (PO's etc.) how slow build times impact the team and hinder
   productivity
 - By monitoring build time you can see if the optimizations in your Webpack config have really improved productivity
+- This plugin can help you to point out the differences between different machines e.g. if one of the developers has really slower builds than other it can be a sign of misconfiguration, poor hardware etc.
 
 ## Installation
 
@@ -25,6 +26,7 @@ For Rollup run:
 More info on setup in [Rollup plugin documentation](https://www.npmjs.com/package/rollup-plugin-build-statistics)
 
 #### Running in dev mode
+
 `yarn install && yarn build`
 
 To run unit and integration tests
