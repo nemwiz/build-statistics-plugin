@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Build log analyzer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css">
+
+    <style>
+        body {
+            background-color: #88ACB6;
+            font-family: "Roboto Slab", sans-serif;
+            padding: 15px;
+        }
+
+        .page-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .date-range {
+            display: flex;
+            visibility: hidden;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .date-range.visible {
+            visibility: visible;
+        }
+
+        .date-input {
+            margin: 20px 0 0 0;
+        }
+
+        .date-input label {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .draw-border {
+            box-shadow: inset 0 0 0 4px #000000;
+            color: #000000;
+            transition: color 0.25s 0.0833333333s;
+            position: relative;
+        }
+
+        .draw-border::before, .draw-border::after {
+            border: 0 solid transparent;
+            box-sizing: border-box;
+            content: "";
+            pointer-events: none;
+            position: absolute;
+            width: 0;
+            height: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .draw-border::before {
+            border-bottom-width: 4px;
+            border-left-width: 4px;
+        }
+
+        .draw-border::after {
+            border-top-width: 4px;
+            border-right-width: 4px;
+        }
+
+        .draw-border:hover::before, .draw-border:hover::after {
+            border-color: #E2C044;
+            transition: border-color 0s, width 0.25s, height 0.25s;
+            width: 100%;
+            height: 100%;
+        }
+
+        .draw-border:hover::before {
+            transition-delay: 0s, 0s, 0.25s;
+        }
+
+        .draw-border:hover::after {
+            transition-delay: 0s, 0.25s, 0s;
+        }
+
+        .btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            line-height: 1.5;
+            font: 700 1.2rem "Roboto Slab", sans-serif;
+            padding: 1em 2em;
+            letter-spacing: 0.05rem;
+        }
+
+        .btn:focus {
+            outline: 2px dotted #000000;
+        }
+
+        .btn.filter {
+            background-color: #bc5d00;
+            color: #ffffff;
+        }
+
+        .btn.filter:hover {
+            color: #000000;
+        }
+
+        .filter-results {
+            margin: 20px 0 25px 0;
+            padding: 0.4em 0.6em;
+            align-self: center;
+        }
+
+        .download-example-file {
+            position: absolute;
+            top: 10px;
+            left: 15px;
+        }
+
+        .download-example-file .btn {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .download-example-file .btn:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+    <a class="download-example-file" download>
+        <button class="btn">Download example file</button>
+    </a>
+
+    <button class="btn draw-border" onclick="clickUploadFile()">Upload log file</button>
+    <input type="file" id="file-input" class="file-upload">
+
+    <div id="date-range" class="date-range">
+        <div class="date-input">
+            <label for="from-date">From</label>
+            <input id="from-date" type="date">
+        </div>
+
+        <div class="date-input">
+            <label for="to-date">To</label>
+            <input id="to-date" type="date">
+        </div>
+        <button class="filter-results btn draw-border" onclick="filterResults()">Filter date</button>
+
+        <h3>Logs by category</h3>
+
+        <div>
+            <button class="filter-results btn filter" onclick="filterByCategory('totalBuildTime')">Total build time</button>
+            <button class="filter-results btn filter" onclick="filterByCategory('buildsCount')">Number of builds</button>
+            <button class="filter-results btn filter" onclick="filterByCategory('meanBuildTime')">Mean build time</button>
+            <button class="filter-results btn filter" onclick="filterByCategory('medianBuildTime')">Median build time</button>
+            <button class="filter-results btn filter" onclick="filterByCategory('slowestBuildTime')">Slowest build time</button>
+            <button class="filter-results btn filter" onclick="filterByCategory('fastestBuildTime')">Fastest build time</button>
+        </div>
+    </div>
+
+    <canvas id="logChart" width="1000" height="450"></canvas>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+
+<script>
+    const inputElement = document.getElementById("file-input");
+    inputElement.addEventListener("change", processLogFile, false);
+
+    function clickUploadFile() {
+        document.getElementById('file-input').click();
+    }
+
+    const ctx = document.getElementById('logChart').getContext('2d');
+
+    let logs;
+    let filteredLogs;
+    let logsChart;
+    let currentCategory = 'totalBuildTime'
+
+    function processLogFile() {
+        const uploadedLogFile = this.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+            logs = JSON.parse(e.target.result);
+
+            setDateRanges();
+
+            document.getElementById('date-range').classList.add('visible');
+
+            if (logsChart) {
+                logsChart.destroy();
+            }
+
+            createChart(logs.map(log => log.date), logs.map(log => log[currentCategory]));
+        };
+
+        reader.readAsText(uploadedLogFile)
+    }
+
+    function setDateRanges() {
+        const fromDate = document.getElementById('from-date');
+        const splitFromDate = logs[0].date.split('-');
+        const fromDateValue = `${splitFromDate[2]}-${splitFromDate[1]}-${splitFromDate[0]}`;
+        fromDate.value = fromDateValue;
+
+        const toDate = document.getElementById('to-date');
+        const splitToDate = logs[logs.length - 1].date.split('-');
+        const toDateValue = `${splitToDate[2]}-${splitToDate[1]}-${splitToDate[0]}`;
+        toDate.value = toDateValue;
+
+        fromDate.min = fromDateValue;
+        fromDate.max = toDateValue;
+
+        toDate.min = fromDateValue;
+        toDate.max = toDateValue;
+    }
+
+    function createChart(labels, data) {
+        logsChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: currentCategory !== 'buildsCount' ? data.map(value => (value / 1000).toFixed(2)) : data,
+                    backgroundColor: '#F3D54E'
+                }
+                ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: `${currentCategory} per day`,
+                    position: 'top',
+                    fontColor: '#000000',
+                    fontSize: '16'
+                },
+                legend: {
+                    display: false
+                },
+                scales: {
+                    xAxes: [
+                        {
+                            gridLines: {
+                                display: false,
+                                drawOnChartArea: false
+                            },
+                            ticks: {
+                                fontColor: '#000000'
+                            }
+                        },
+                    ],
+                    yAxes: [
+                        {
+                            gridLines: {
+                                display: false,
+                                drawOnChartArea: false
+                            },
+                            ticks: {
+                                fontColor: '#000000',
+                                callback: function (value, index, values) {
+
+                                    if (currentCategory !== 'buildsCount') {
+                                        return `${value} s`
+                                    }
+
+                                    return value;
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        });
+    }
+
+    function filterResults() {
+
+        const fromDateSplit = document.getElementById('from-date').value.split('-');
+        const toDateSplit = document.getElementById('to-date').value.split('-');
+
+        const fromDateValue = `${fromDateSplit[2]}-${fromDateSplit[1]}-${fromDateSplit[0]}`;
+        const toDateValue = `${toDateSplit[2]}-${toDateSplit[1]}-${toDateSplit[0]}`;
+
+        const logsFiltered = [];
+
+        let shouldAddLogs = false;
+
+        for (let i = 0; i < logs.length; i++) {
+            if (logs[i].date === fromDateValue) {
+                shouldAddLogs = true;
+            }
+
+            if (shouldAddLogs) {
+                logsFiltered.push(logs[i]);
+            }
+
+            if (logs[i].date === toDateValue) {
+                shouldAddLogs = false;
+                break;
+            }
+        }
+
+        filteredLogs = logsFiltered;
+
+        logsChart.destroy();
+        createChart(logsFiltered.map(log => log.date), logsFiltered.map(log => log[currentCategory]));
+    }
+
+    function filterByCategory(category) {
+        logsChart.destroy()
+
+        currentCategory = category;
+
+        if (filteredLogs) {
+            createChart(filteredLogs.map(log => log.date), filteredLogs.map(log => log[category]));
+        } else {
+            createChart(logs.map(log => log.date), logs.map(log => log[category]));
+        }
+    }
+
+</script>
+
+</body>
+</html>

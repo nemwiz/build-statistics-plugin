@@ -1,0 +1,1502 @@
+[
+  {
+    "projectName": "dummy-app",
+    "date": "01-03-2021",
+    "totalBuildTime": 5951,
+    "buildsCount": 37,
+    "meanBuildTime": 161,
+    "medianBuildTime": 360,
+    "slowestBuildTime": 410,
+    "fastestBuildTime": 831
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "02-03-2021",
+    "totalBuildTime": 869,
+    "buildsCount": 94,
+    "meanBuildTime": 9,
+    "medianBuildTime": 522,
+    "slowestBuildTime": 135,
+    "fastestBuildTime": 1490
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "03-03-2021",
+    "totalBuildTime": 1959,
+    "buildsCount": 98,
+    "meanBuildTime": 20,
+    "medianBuildTime": 711,
+    "slowestBuildTime": 1449,
+    "fastestBuildTime": 1328
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "04-03-2021",
+    "totalBuildTime": 4559,
+    "buildsCount": 41,
+    "meanBuildTime": 111,
+    "medianBuildTime": 1235,
+    "slowestBuildTime": 973,
+    "fastestBuildTime": 1500
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "05-03-2021",
+    "totalBuildTime": 2679,
+    "buildsCount": 54,
+    "meanBuildTime": 50,
+    "medianBuildTime": 1491,
+    "slowestBuildTime": 782,
+    "fastestBuildTime": 647
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "06-03-2021",
+    "totalBuildTime": 1817,
+    "buildsCount": 53,
+    "meanBuildTime": 34,
+    "medianBuildTime": 1236,
+    "slowestBuildTime": 1295,
+    "fastestBuildTime": 471
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "07-03-2021",
+    "totalBuildTime": 130,
+    "buildsCount": 34,
+    "meanBuildTime": 4,
+    "medianBuildTime": 1104,
+    "slowestBuildTime": 293,
+    "fastestBuildTime": 60
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "08-03-2021",
+    "totalBuildTime": 3076,
+    "buildsCount": 70,
+    "meanBuildTime": 44,
+    "medianBuildTime": 10,
+    "slowestBuildTime": 1101,
+    "fastestBuildTime": 784
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "09-03-2021",
+    "totalBuildTime": 3036,
+    "buildsCount": 86,
+    "meanBuildTime": 35,
+    "medianBuildTime": 1375,
+    "slowestBuildTime": 58,
+    "fastestBuildTime": 373
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "10-03-2021",
+    "totalBuildTime": 228,
+    "buildsCount": 51,
+    "meanBuildTime": 4,
+    "medianBuildTime": 124,
+    "slowestBuildTime": 669,
+    "fastestBuildTime": 1446
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "11-03-2021",
+    "totalBuildTime": 626,
+    "buildsCount": 60,
+    "meanBuildTime": 10,
+    "medianBuildTime": 622,
+    "slowestBuildTime": 692,
+    "fastestBuildTime": 796
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "12-03-2021",
+    "totalBuildTime": 1861,
+    "buildsCount": 59,
+    "meanBuildTime": 32,
+    "medianBuildTime": 905,
+    "slowestBuildTime": 1006,
+    "fastestBuildTime": 786
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "13-03-2021",
+    "totalBuildTime": 875,
+    "buildsCount": 58,
+    "meanBuildTime": 15,
+    "medianBuildTime": 1069,
+    "slowestBuildTime": 1134,
+    "fastestBuildTime": 753
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "14-03-2021",
+    "totalBuildTime": 3122,
+    "buildsCount": 68,
+    "meanBuildTime": 46,
+    "medianBuildTime": 1498,
+    "slowestBuildTime": 361,
+    "fastestBuildTime": 328
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "15-03-2021",
+    "totalBuildTime": 6717,
+    "buildsCount": 97,
+    "meanBuildTime": 69,
+    "medianBuildTime": 1429,
+    "slowestBuildTime": 764,
+    "fastestBuildTime": 666
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "16-03-2021",
+    "totalBuildTime": 563,
+    "buildsCount": 91,
+    "meanBuildTime": 6,
+    "medianBuildTime": 629,
+    "slowestBuildTime": 1290,
+    "fastestBuildTime": 1
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "17-03-2021",
+    "totalBuildTime": 5714,
+    "buildsCount": 90,
+    "meanBuildTime": 63,
+    "medianBuildTime": 83,
+    "slowestBuildTime": 1058,
+    "fastestBuildTime": 1331
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "18-03-2021",
+    "totalBuildTime": 2030,
+    "buildsCount": 48,
+    "meanBuildTime": 42,
+    "medianBuildTime": 1442,
+    "slowestBuildTime": 198,
+    "fastestBuildTime": 231
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "19-03-2021",
+    "totalBuildTime": 2299,
+    "buildsCount": 100,
+    "meanBuildTime": 23,
+    "medianBuildTime": 1374,
+    "slowestBuildTime": 735,
+    "fastestBuildTime": 809
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "20-03-2021",
+    "totalBuildTime": 991,
+    "buildsCount": 93,
+    "meanBuildTime": 11,
+    "medianBuildTime": 1212,
+    "slowestBuildTime": 446,
+    "fastestBuildTime": 811
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "21-03-2021",
+    "totalBuildTime": 6173,
+    "buildsCount": 89,
+    "meanBuildTime": 69,
+    "medianBuildTime": 165,
+    "slowestBuildTime": 1241,
+    "fastestBuildTime": 238
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "22-03-2021",
+    "totalBuildTime": 3395,
+    "buildsCount": 43,
+    "meanBuildTime": 79,
+    "medianBuildTime": 1341,
+    "slowestBuildTime": 230,
+    "fastestBuildTime": 730
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "23-03-2021",
+    "totalBuildTime": 1396,
+    "buildsCount": 52,
+    "meanBuildTime": 27,
+    "medianBuildTime": 508,
+    "slowestBuildTime": 54,
+    "fastestBuildTime": 79
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "24-03-2021",
+    "totalBuildTime": 7350,
+    "buildsCount": 96,
+    "meanBuildTime": 77,
+    "medianBuildTime": 147,
+    "slowestBuildTime": 1142,
+    "fastestBuildTime": 396
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "25-03-2021",
+    "totalBuildTime": 4833,
+    "buildsCount": 88,
+    "meanBuildTime": 55,
+    "medianBuildTime": 30,
+    "slowestBuildTime": 1223,
+    "fastestBuildTime": 621
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "26-03-2021",
+    "totalBuildTime": 6070,
+    "buildsCount": 37,
+    "meanBuildTime": 164,
+    "medianBuildTime": 1024,
+    "slowestBuildTime": 337,
+    "fastestBuildTime": 1398
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "27-03-2021",
+    "totalBuildTime": 3749,
+    "buildsCount": 44,
+    "meanBuildTime": 85,
+    "medianBuildTime": 380,
+    "slowestBuildTime": 744,
+    "fastestBuildTime": 979
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "28-03-2021",
+    "totalBuildTime": 5471,
+    "buildsCount": 37,
+    "meanBuildTime": 148,
+    "medianBuildTime": 503,
+    "slowestBuildTime": 1117,
+    "fastestBuildTime": 561
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "29-03-2021",
+    "totalBuildTime": 5025,
+    "buildsCount": 30,
+    "meanBuildTime": 168,
+    "medianBuildTime": 833,
+    "slowestBuildTime": 1039,
+    "fastestBuildTime": 1222
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "30-03-2021",
+    "totalBuildTime": 2848,
+    "buildsCount": 36,
+    "meanBuildTime": 79,
+    "medianBuildTime": 322,
+    "slowestBuildTime": 1040,
+    "fastestBuildTime": 54
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "31-03-2021",
+    "totalBuildTime": 2181,
+    "buildsCount": 48,
+    "meanBuildTime": 45,
+    "medianBuildTime": 325,
+    "slowestBuildTime": 14,
+    "fastestBuildTime": 310
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "01-04-2021",
+    "totalBuildTime": 4159,
+    "buildsCount": 65,
+    "meanBuildTime": 64,
+    "medianBuildTime": 1101,
+    "slowestBuildTime": 1230,
+    "fastestBuildTime": 268
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "02-04-2021",
+    "totalBuildTime": 865,
+    "buildsCount": 67,
+    "meanBuildTime": 13,
+    "medianBuildTime": 585,
+    "slowestBuildTime": 709,
+    "fastestBuildTime": 1231
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "03-04-2021",
+    "totalBuildTime": 6169,
+    "buildsCount": 91,
+    "meanBuildTime": 68,
+    "medianBuildTime": 102,
+    "slowestBuildTime": 1141,
+    "fastestBuildTime": 1363
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "04-04-2021",
+    "totalBuildTime": 2824,
+    "buildsCount": 81,
+    "meanBuildTime": 35,
+    "medianBuildTime": 70,
+    "slowestBuildTime": 226,
+    "fastestBuildTime": 1036
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "05-04-2021",
+    "totalBuildTime": 5541,
+    "buildsCount": 54,
+    "meanBuildTime": 103,
+    "medianBuildTime": 1302,
+    "slowestBuildTime": 1422,
+    "fastestBuildTime": 828
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "06-04-2021",
+    "totalBuildTime": 7116,
+    "buildsCount": 50,
+    "meanBuildTime": 142,
+    "medianBuildTime": 708,
+    "slowestBuildTime": 436,
+    "fastestBuildTime": 924
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "07-04-2021",
+    "totalBuildTime": 7739,
+    "buildsCount": 59,
+    "meanBuildTime": 131,
+    "medianBuildTime": 91,
+    "slowestBuildTime": 464,
+    "fastestBuildTime": 567
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "08-04-2021",
+    "totalBuildTime": 2425,
+    "buildsCount": 38,
+    "meanBuildTime": 64,
+    "medianBuildTime": 1319,
+    "slowestBuildTime": 92,
+    "fastestBuildTime": 654
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "09-04-2021",
+    "totalBuildTime": 729,
+    "buildsCount": 63,
+    "meanBuildTime": 12,
+    "medianBuildTime": 1490,
+    "slowestBuildTime": 416,
+    "fastestBuildTime": 303
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "10-04-2021",
+    "totalBuildTime": 3989,
+    "buildsCount": 35,
+    "meanBuildTime": 114,
+    "medianBuildTime": 1216,
+    "slowestBuildTime": 264,
+    "fastestBuildTime": 458
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "11-04-2021",
+    "totalBuildTime": 653,
+    "buildsCount": 56,
+    "meanBuildTime": 12,
+    "medianBuildTime": 1427,
+    "slowestBuildTime": 912,
+    "fastestBuildTime": 549
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "12-04-2021",
+    "totalBuildTime": 155,
+    "buildsCount": 86,
+    "meanBuildTime": 2,
+    "medianBuildTime": 740,
+    "slowestBuildTime": 884,
+    "fastestBuildTime": 911
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "13-04-2021",
+    "totalBuildTime": 7606,
+    "buildsCount": 80,
+    "meanBuildTime": 95,
+    "medianBuildTime": 145,
+    "slowestBuildTime": 1345,
+    "fastestBuildTime": 498
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "14-04-2021",
+    "totalBuildTime": 239,
+    "buildsCount": 93,
+    "meanBuildTime": 3,
+    "medianBuildTime": 1256,
+    "slowestBuildTime": 1180,
+    "fastestBuildTime": 847
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "15-04-2021",
+    "totalBuildTime": 7960,
+    "buildsCount": 40,
+    "meanBuildTime": 199,
+    "medianBuildTime": 493,
+    "slowestBuildTime": 1112,
+    "fastestBuildTime": 190
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "16-04-2021",
+    "totalBuildTime": 5281,
+    "buildsCount": 39,
+    "meanBuildTime": 135,
+    "medianBuildTime": 722,
+    "slowestBuildTime": 1031,
+    "fastestBuildTime": 486
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "17-04-2021",
+    "totalBuildTime": 4673,
+    "buildsCount": 43,
+    "meanBuildTime": 109,
+    "medianBuildTime": 8,
+    "slowestBuildTime": 570,
+    "fastestBuildTime": 97
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "18-04-2021",
+    "totalBuildTime": 3235,
+    "buildsCount": 51,
+    "meanBuildTime": 63,
+    "medianBuildTime": 1196,
+    "slowestBuildTime": 1417,
+    "fastestBuildTime": 1483
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "19-04-2021",
+    "totalBuildTime": 4215,
+    "buildsCount": 45,
+    "meanBuildTime": 94,
+    "medianBuildTime": 1383,
+    "slowestBuildTime": 71,
+    "fastestBuildTime": 1200
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "20-04-2021",
+    "totalBuildTime": 3657,
+    "buildsCount": 88,
+    "meanBuildTime": 42,
+    "medianBuildTime": 1473,
+    "slowestBuildTime": 1242,
+    "fastestBuildTime": 636
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "21-04-2021",
+    "totalBuildTime": 7966,
+    "buildsCount": 50,
+    "meanBuildTime": 159,
+    "medianBuildTime": 93,
+    "slowestBuildTime": 931,
+    "fastestBuildTime": 1419
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "22-04-2021",
+    "totalBuildTime": 259,
+    "buildsCount": 96,
+    "meanBuildTime": 3,
+    "medianBuildTime": 996,
+    "slowestBuildTime": 195,
+    "fastestBuildTime": 1419
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "23-04-2021",
+    "totalBuildTime": 6295,
+    "buildsCount": 66,
+    "meanBuildTime": 95,
+    "medianBuildTime": 240,
+    "slowestBuildTime": 655,
+    "fastestBuildTime": 1088
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "24-04-2021",
+    "totalBuildTime": 977,
+    "buildsCount": 75,
+    "meanBuildTime": 13,
+    "medianBuildTime": 1440,
+    "slowestBuildTime": 1238,
+    "fastestBuildTime": 53
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "25-04-2021",
+    "totalBuildTime": 2536,
+    "buildsCount": 73,
+    "meanBuildTime": 35,
+    "medianBuildTime": 156,
+    "slowestBuildTime": 230,
+    "fastestBuildTime": 617
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "26-04-2021",
+    "totalBuildTime": 5906,
+    "buildsCount": 56,
+    "meanBuildTime": 105,
+    "medianBuildTime": 1311,
+    "slowestBuildTime": 216,
+    "fastestBuildTime": 686
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "27-04-2021",
+    "totalBuildTime": 7104,
+    "buildsCount": 85,
+    "meanBuildTime": 84,
+    "medianBuildTime": 1186,
+    "slowestBuildTime": 1164,
+    "fastestBuildTime": 956
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "28-04-2021",
+    "totalBuildTime": 5901,
+    "buildsCount": 98,
+    "meanBuildTime": 60,
+    "medianBuildTime": 1497,
+    "slowestBuildTime": 564,
+    "fastestBuildTime": 402
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "29-04-2021",
+    "totalBuildTime": 5750,
+    "buildsCount": 89,
+    "meanBuildTime": 65,
+    "medianBuildTime": 119,
+    "slowestBuildTime": 460,
+    "fastestBuildTime": 215
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "30-04-2021",
+    "totalBuildTime": 4908,
+    "buildsCount": 87,
+    "meanBuildTime": 56,
+    "medianBuildTime": 145,
+    "slowestBuildTime": 187,
+    "fastestBuildTime": 32
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "01-05-2021",
+    "totalBuildTime": 7950,
+    "buildsCount": 44,
+    "meanBuildTime": 181,
+    "medianBuildTime": 882,
+    "slowestBuildTime": 284,
+    "fastestBuildTime": 1328
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "02-05-2021",
+    "totalBuildTime": 6030,
+    "buildsCount": 99,
+    "meanBuildTime": 61,
+    "medianBuildTime": 818,
+    "slowestBuildTime": 1142,
+    "fastestBuildTime": 163
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "03-05-2021",
+    "totalBuildTime": 7701,
+    "buildsCount": 90,
+    "meanBuildTime": 86,
+    "medianBuildTime": 857,
+    "slowestBuildTime": 1268,
+    "fastestBuildTime": 1500
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "04-05-2021",
+    "totalBuildTime": 1110,
+    "buildsCount": 47,
+    "meanBuildTime": 24,
+    "medianBuildTime": 740,
+    "slowestBuildTime": 1277,
+    "fastestBuildTime": 1210
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "05-05-2021",
+    "totalBuildTime": 3596,
+    "buildsCount": 55,
+    "meanBuildTime": 65,
+    "medianBuildTime": 1081,
+    "slowestBuildTime": 1376,
+    "fastestBuildTime": 990
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "06-05-2021",
+    "totalBuildTime": 5855,
+    "buildsCount": 98,
+    "meanBuildTime": 60,
+    "medianBuildTime": 1102,
+    "slowestBuildTime": 405,
+    "fastestBuildTime": 1036
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "07-05-2021",
+    "totalBuildTime": 3474,
+    "buildsCount": 95,
+    "meanBuildTime": 37,
+    "medianBuildTime": 55,
+    "slowestBuildTime": 1419,
+    "fastestBuildTime": 1256
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "08-05-2021",
+    "totalBuildTime": 3059,
+    "buildsCount": 66,
+    "meanBuildTime": 46,
+    "medianBuildTime": 775,
+    "slowestBuildTime": 1379,
+    "fastestBuildTime": 485
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "09-05-2021",
+    "totalBuildTime": 7374,
+    "buildsCount": 77,
+    "meanBuildTime": 96,
+    "medianBuildTime": 347,
+    "slowestBuildTime": 1125,
+    "fastestBuildTime": 211
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "10-05-2021",
+    "totalBuildTime": 834,
+    "buildsCount": 42,
+    "meanBuildTime": 20,
+    "medianBuildTime": 506,
+    "slowestBuildTime": 1272,
+    "fastestBuildTime": 399
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "11-05-2021",
+    "totalBuildTime": 2864,
+    "buildsCount": 70,
+    "meanBuildTime": 41,
+    "medianBuildTime": 1456,
+    "slowestBuildTime": 1263,
+    "fastestBuildTime": 290
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "12-05-2021",
+    "totalBuildTime": 716,
+    "buildsCount": 39,
+    "meanBuildTime": 18,
+    "medianBuildTime": 1217,
+    "slowestBuildTime": 785,
+    "fastestBuildTime": 741
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "13-05-2021",
+    "totalBuildTime": 2823,
+    "buildsCount": 69,
+    "meanBuildTime": 41,
+    "medianBuildTime": 964,
+    "slowestBuildTime": 333,
+    "fastestBuildTime": 862
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "14-05-2021",
+    "totalBuildTime": 1404,
+    "buildsCount": 83,
+    "meanBuildTime": 17,
+    "medianBuildTime": 197,
+    "slowestBuildTime": 215,
+    "fastestBuildTime": 652
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "15-05-2021",
+    "totalBuildTime": 1772,
+    "buildsCount": 86,
+    "meanBuildTime": 21,
+    "medianBuildTime": 854,
+    "slowestBuildTime": 649,
+    "fastestBuildTime": 1189
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "16-05-2021",
+    "totalBuildTime": 7114,
+    "buildsCount": 48,
+    "meanBuildTime": 148,
+    "medianBuildTime": 302,
+    "slowestBuildTime": 796,
+    "fastestBuildTime": 711
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "17-05-2021",
+    "totalBuildTime": 5515,
+    "buildsCount": 33,
+    "meanBuildTime": 167,
+    "medianBuildTime": 1189,
+    "slowestBuildTime": 1275,
+    "fastestBuildTime": 1413
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "18-05-2021",
+    "totalBuildTime": 1710,
+    "buildsCount": 76,
+    "meanBuildTime": 23,
+    "medianBuildTime": 334,
+    "slowestBuildTime": 1403,
+    "fastestBuildTime": 208
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "19-05-2021",
+    "totalBuildTime": 7322,
+    "buildsCount": 92,
+    "meanBuildTime": 80,
+    "medianBuildTime": 128,
+    "slowestBuildTime": 670,
+    "fastestBuildTime": 125
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "20-05-2021",
+    "totalBuildTime": 3981,
+    "buildsCount": 67,
+    "meanBuildTime": 59,
+    "medianBuildTime": 876,
+    "slowestBuildTime": 889,
+    "fastestBuildTime": 666
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "21-05-2021",
+    "totalBuildTime": 6345,
+    "buildsCount": 32,
+    "meanBuildTime": 198,
+    "medianBuildTime": 1385,
+    "slowestBuildTime": 365,
+    "fastestBuildTime": 530
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "22-05-2021",
+    "totalBuildTime": 2431,
+    "buildsCount": 66,
+    "meanBuildTime": 37,
+    "medianBuildTime": 731,
+    "slowestBuildTime": 761,
+    "fastestBuildTime": 1297
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "23-05-2021",
+    "totalBuildTime": 5277,
+    "buildsCount": 85,
+    "meanBuildTime": 62,
+    "medianBuildTime": 1347,
+    "slowestBuildTime": 1359,
+    "fastestBuildTime": 150
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "24-05-2021",
+    "totalBuildTime": 3800,
+    "buildsCount": 87,
+    "meanBuildTime": 44,
+    "medianBuildTime": 1133,
+    "slowestBuildTime": 615,
+    "fastestBuildTime": 315
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "25-05-2021",
+    "totalBuildTime": 6054,
+    "buildsCount": 91,
+    "meanBuildTime": 67,
+    "medianBuildTime": 908,
+    "slowestBuildTime": 1440,
+    "fastestBuildTime": 1469
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "26-05-2021",
+    "totalBuildTime": 429,
+    "buildsCount": 77,
+    "meanBuildTime": 6,
+    "medianBuildTime": 155,
+    "slowestBuildTime": 301,
+    "fastestBuildTime": 1346
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "27-05-2021",
+    "totalBuildTime": 4571,
+    "buildsCount": 82,
+    "meanBuildTime": 56,
+    "medianBuildTime": 561,
+    "slowestBuildTime": 334,
+    "fastestBuildTime": 815
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "28-05-2021",
+    "totalBuildTime": 175,
+    "buildsCount": 92,
+    "meanBuildTime": 2,
+    "medianBuildTime": 646,
+    "slowestBuildTime": 856,
+    "fastestBuildTime": 1490
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "29-05-2021",
+    "totalBuildTime": 1782,
+    "buildsCount": 35,
+    "meanBuildTime": 51,
+    "medianBuildTime": 1131,
+    "slowestBuildTime": 472,
+    "fastestBuildTime": 539
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "30-05-2021",
+    "totalBuildTime": 6702,
+    "buildsCount": 74,
+    "meanBuildTime": 91,
+    "medianBuildTime": 796,
+    "slowestBuildTime": 265,
+    "fastestBuildTime": 1091
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "31-05-2021",
+    "totalBuildTime": 3100,
+    "buildsCount": 41,
+    "meanBuildTime": 76,
+    "medianBuildTime": 804,
+    "slowestBuildTime": 292,
+    "fastestBuildTime": 1359
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "01-06-2021",
+    "totalBuildTime": 3469,
+    "buildsCount": 34,
+    "meanBuildTime": 102,
+    "medianBuildTime": 144,
+    "slowestBuildTime": 51,
+    "fastestBuildTime": 1316
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "02-06-2021",
+    "totalBuildTime": 158,
+    "buildsCount": 54,
+    "meanBuildTime": 3,
+    "medianBuildTime": 1024,
+    "slowestBuildTime": 810,
+    "fastestBuildTime": 619
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "03-06-2021",
+    "totalBuildTime": 5960,
+    "buildsCount": 67,
+    "meanBuildTime": 89,
+    "medianBuildTime": 1017,
+    "slowestBuildTime": 673,
+    "fastestBuildTime": 1335
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "04-06-2021",
+    "totalBuildTime": 1477,
+    "buildsCount": 37,
+    "meanBuildTime": 40,
+    "medianBuildTime": 52,
+    "slowestBuildTime": 837,
+    "fastestBuildTime": 445
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "05-06-2021",
+    "totalBuildTime": 6846,
+    "buildsCount": 67,
+    "meanBuildTime": 102,
+    "medianBuildTime": 408,
+    "slowestBuildTime": 1058,
+    "fastestBuildTime": 415
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "06-06-2021",
+    "totalBuildTime": 1395,
+    "buildsCount": 35,
+    "meanBuildTime": 40,
+    "medianBuildTime": 1084,
+    "slowestBuildTime": 151,
+    "fastestBuildTime": 544
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "07-06-2021",
+    "totalBuildTime": 4213,
+    "buildsCount": 79,
+    "meanBuildTime": 53,
+    "medianBuildTime": 1081,
+    "slowestBuildTime": 1037,
+    "fastestBuildTime": 915
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "08-06-2021",
+    "totalBuildTime": 567,
+    "buildsCount": 83,
+    "meanBuildTime": 7,
+    "medianBuildTime": 159,
+    "slowestBuildTime": 692,
+    "fastestBuildTime": 671
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "09-06-2021",
+    "totalBuildTime": 1101,
+    "buildsCount": 54,
+    "meanBuildTime": 20,
+    "medianBuildTime": 1484,
+    "slowestBuildTime": 576,
+    "fastestBuildTime": 1451
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "10-06-2021",
+    "totalBuildTime": 7721,
+    "buildsCount": 46,
+    "meanBuildTime": 168,
+    "medianBuildTime": 1158,
+    "slowestBuildTime": 1228,
+    "fastestBuildTime": 1144
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "11-06-2021",
+    "totalBuildTime": 7880,
+    "buildsCount": 83,
+    "meanBuildTime": 95,
+    "medianBuildTime": 881,
+    "slowestBuildTime": 1086,
+    "fastestBuildTime": 799
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "12-06-2021",
+    "totalBuildTime": 4225,
+    "buildsCount": 43,
+    "meanBuildTime": 98,
+    "medianBuildTime": 590,
+    "slowestBuildTime": 870,
+    "fastestBuildTime": 522
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "13-06-2021",
+    "totalBuildTime": 5770,
+    "buildsCount": 32,
+    "meanBuildTime": 180,
+    "medianBuildTime": 824,
+    "slowestBuildTime": 757,
+    "fastestBuildTime": 968
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "14-06-2021",
+    "totalBuildTime": 2710,
+    "buildsCount": 68,
+    "meanBuildTime": 40,
+    "medianBuildTime": 795,
+    "slowestBuildTime": 1393,
+    "fastestBuildTime": 368
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "15-06-2021",
+    "totalBuildTime": 4465,
+    "buildsCount": 34,
+    "meanBuildTime": 131,
+    "medianBuildTime": 566,
+    "slowestBuildTime": 701,
+    "fastestBuildTime": 522
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "16-06-2021",
+    "totalBuildTime": 1595,
+    "buildsCount": 48,
+    "meanBuildTime": 33,
+    "medianBuildTime": 456,
+    "slowestBuildTime": 683,
+    "fastestBuildTime": 554
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "17-06-2021",
+    "totalBuildTime": 7271,
+    "buildsCount": 86,
+    "meanBuildTime": 85,
+    "medianBuildTime": 766,
+    "slowestBuildTime": 709,
+    "fastestBuildTime": 647
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "18-06-2021",
+    "totalBuildTime": 4251,
+    "buildsCount": 56,
+    "meanBuildTime": 76,
+    "medianBuildTime": 280,
+    "slowestBuildTime": 306,
+    "fastestBuildTime": 950
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "19-06-2021",
+    "totalBuildTime": 2828,
+    "buildsCount": 51,
+    "meanBuildTime": 55,
+    "medianBuildTime": 726,
+    "slowestBuildTime": 850,
+    "fastestBuildTime": 954
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "20-06-2021",
+    "totalBuildTime": 2752,
+    "buildsCount": 58,
+    "meanBuildTime": 47,
+    "medianBuildTime": 997,
+    "slowestBuildTime": 590,
+    "fastestBuildTime": 944
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "21-06-2021",
+    "totalBuildTime": 2875,
+    "buildsCount": 41,
+    "meanBuildTime": 70,
+    "medianBuildTime": 734,
+    "slowestBuildTime": 739,
+    "fastestBuildTime": 482
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "22-06-2021",
+    "totalBuildTime": 1088,
+    "buildsCount": 89,
+    "meanBuildTime": 12,
+    "medianBuildTime": 1118,
+    "slowestBuildTime": 1472,
+    "fastestBuildTime": 944
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "23-06-2021",
+    "totalBuildTime": 7942,
+    "buildsCount": 92,
+    "meanBuildTime": 86,
+    "medianBuildTime": 1280,
+    "slowestBuildTime": 1142,
+    "fastestBuildTime": 1170
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "24-06-2021",
+    "totalBuildTime": 1167,
+    "buildsCount": 39,
+    "meanBuildTime": 30,
+    "medianBuildTime": 511,
+    "slowestBuildTime": 202,
+    "fastestBuildTime": 226
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "25-06-2021",
+    "totalBuildTime": 673,
+    "buildsCount": 67,
+    "meanBuildTime": 10,
+    "medianBuildTime": 1335,
+    "slowestBuildTime": 32,
+    "fastestBuildTime": 1090
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "26-06-2021",
+    "totalBuildTime": 892,
+    "buildsCount": 30,
+    "meanBuildTime": 30,
+    "medianBuildTime": 166,
+    "slowestBuildTime": 807,
+    "fastestBuildTime": 1141
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "27-06-2021",
+    "totalBuildTime": 1871,
+    "buildsCount": 86,
+    "meanBuildTime": 22,
+    "medianBuildTime": 180,
+    "slowestBuildTime": 823,
+    "fastestBuildTime": 192
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "28-06-2021",
+    "totalBuildTime": 346,
+    "buildsCount": 81,
+    "meanBuildTime": 4,
+    "medianBuildTime": 63,
+    "slowestBuildTime": 698,
+    "fastestBuildTime": 1199
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "29-06-2021",
+    "totalBuildTime": 2001,
+    "buildsCount": 76,
+    "meanBuildTime": 26,
+    "medianBuildTime": 353,
+    "slowestBuildTime": 1192,
+    "fastestBuildTime": 1108
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "30-06-2021",
+    "totalBuildTime": 7028,
+    "buildsCount": 40,
+    "meanBuildTime": 176,
+    "medianBuildTime": 1237,
+    "slowestBuildTime": 823,
+    "fastestBuildTime": 770
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "01-07-2021",
+    "totalBuildTime": 1271,
+    "buildsCount": 90,
+    "meanBuildTime": 14,
+    "medianBuildTime": 623,
+    "slowestBuildTime": 63,
+    "fastestBuildTime": 644
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "02-07-2021",
+    "totalBuildTime": 2207,
+    "buildsCount": 76,
+    "meanBuildTime": 29,
+    "medianBuildTime": 770,
+    "slowestBuildTime": 280,
+    "fastestBuildTime": 288
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "03-07-2021",
+    "totalBuildTime": 5718,
+    "buildsCount": 95,
+    "meanBuildTime": 60,
+    "medianBuildTime": 503,
+    "slowestBuildTime": 392,
+    "fastestBuildTime": 977
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "04-07-2021",
+    "totalBuildTime": 1617,
+    "buildsCount": 36,
+    "meanBuildTime": 45,
+    "medianBuildTime": 865,
+    "slowestBuildTime": 268,
+    "fastestBuildTime": 711
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "05-07-2021",
+    "totalBuildTime": 5819,
+    "buildsCount": 77,
+    "meanBuildTime": 76,
+    "medianBuildTime": 1113,
+    "slowestBuildTime": 1118,
+    "fastestBuildTime": 1369
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "06-07-2021",
+    "totalBuildTime": 568,
+    "buildsCount": 64,
+    "meanBuildTime": 9,
+    "medianBuildTime": 911,
+    "slowestBuildTime": 1495,
+    "fastestBuildTime": 1398
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "07-07-2021",
+    "totalBuildTime": 1481,
+    "buildsCount": 99,
+    "meanBuildTime": 15,
+    "medianBuildTime": 103,
+    "slowestBuildTime": 5,
+    "fastestBuildTime": 1288
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "08-07-2021",
+    "totalBuildTime": 3831,
+    "buildsCount": 38,
+    "meanBuildTime": 101,
+    "medianBuildTime": 920,
+    "slowestBuildTime": 1083,
+    "fastestBuildTime": 825
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "09-07-2021",
+    "totalBuildTime": 5554,
+    "buildsCount": 83,
+    "meanBuildTime": 67,
+    "medianBuildTime": 1400,
+    "slowestBuildTime": 805,
+    "fastestBuildTime": 1095
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "10-07-2021",
+    "totalBuildTime": 3129,
+    "buildsCount": 63,
+    "meanBuildTime": 50,
+    "medianBuildTime": 378,
+    "slowestBuildTime": 868,
+    "fastestBuildTime": 310
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "11-07-2021",
+    "totalBuildTime": 1428,
+    "buildsCount": 76,
+    "meanBuildTime": 19,
+    "medianBuildTime": 1307,
+    "slowestBuildTime": 46,
+    "fastestBuildTime": 128
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "12-07-2021",
+    "totalBuildTime": 4297,
+    "buildsCount": 80,
+    "meanBuildTime": 54,
+    "medianBuildTime": 213,
+    "slowestBuildTime": 607,
+    "fastestBuildTime": 424
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "13-07-2021",
+    "totalBuildTime": 6711,
+    "buildsCount": 37,
+    "meanBuildTime": 181,
+    "medianBuildTime": 696,
+    "slowestBuildTime": 479,
+    "fastestBuildTime": 872
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "14-07-2021",
+    "totalBuildTime": 1548,
+    "buildsCount": 46,
+    "meanBuildTime": 34,
+    "medianBuildTime": 81,
+    "slowestBuildTime": 1111,
+    "fastestBuildTime": 511
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "15-07-2021",
+    "totalBuildTime": 363,
+    "buildsCount": 71,
+    "meanBuildTime": 5,
+    "medianBuildTime": 645,
+    "slowestBuildTime": 385,
+    "fastestBuildTime": 1043
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "16-07-2021",
+    "totalBuildTime": 3178,
+    "buildsCount": 52,
+    "meanBuildTime": 61,
+    "medianBuildTime": 782,
+    "slowestBuildTime": 386,
+    "fastestBuildTime": 828
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "17-07-2021",
+    "totalBuildTime": 288,
+    "buildsCount": 96,
+    "meanBuildTime": 3,
+    "medianBuildTime": 1082,
+    "slowestBuildTime": 1340,
+    "fastestBuildTime": 1463
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "18-07-2021",
+    "totalBuildTime": 908,
+    "buildsCount": 59,
+    "meanBuildTime": 15,
+    "medianBuildTime": 837,
+    "slowestBuildTime": 385,
+    "fastestBuildTime": 460
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "19-07-2021",
+    "totalBuildTime": 374,
+    "buildsCount": 62,
+    "meanBuildTime": 6,
+    "medianBuildTime": 1079,
+    "slowestBuildTime": 1396,
+    "fastestBuildTime": 776
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "20-07-2021",
+    "totalBuildTime": 5662,
+    "buildsCount": 35,
+    "meanBuildTime": 162,
+    "medianBuildTime": 1035,
+    "slowestBuildTime": 437,
+    "fastestBuildTime": 318
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "21-07-2021",
+    "totalBuildTime": 981,
+    "buildsCount": 58,
+    "meanBuildTime": 17,
+    "medianBuildTime": 1344,
+    "slowestBuildTime": 1060,
+    "fastestBuildTime": 383
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "22-07-2021",
+    "totalBuildTime": 7850,
+    "buildsCount": 100,
+    "meanBuildTime": 79,
+    "medianBuildTime": 238,
+    "slowestBuildTime": 926,
+    "fastestBuildTime": 325
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "23-07-2021",
+    "totalBuildTime": 3153,
+    "buildsCount": 93,
+    "meanBuildTime": 34,
+    "medianBuildTime": 1495,
+    "slowestBuildTime": 443,
+    "fastestBuildTime": 908
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "24-07-2021",
+    "totalBuildTime": 679,
+    "buildsCount": 46,
+    "meanBuildTime": 15,
+    "medianBuildTime": 1291,
+    "slowestBuildTime": 1052,
+    "fastestBuildTime": 1006
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "25-07-2021",
+    "totalBuildTime": 2685,
+    "buildsCount": 45,
+    "meanBuildTime": 60,
+    "medianBuildTime": 256,
+    "slowestBuildTime": 462,
+    "fastestBuildTime": 144
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "26-07-2021",
+    "totalBuildTime": 6045,
+    "buildsCount": 85,
+    "meanBuildTime": 71,
+    "medianBuildTime": 210,
+    "slowestBuildTime": 94,
+    "fastestBuildTime": 586
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "27-07-2021",
+    "totalBuildTime": 2049,
+    "buildsCount": 48,
+    "meanBuildTime": 43,
+    "medianBuildTime": 452,
+    "slowestBuildTime": 1217,
+    "fastestBuildTime": 724
+  },
+  {
+    "projectName": "dummy-app",
+    "date": "28-07-2021",
+    "totalBuildTime": 1684,
+    "buildsCount": 34,
+    "meanBuildTime": 50,
+    "medianBuildTime": 157,
+    "slowestBuildTime": 239,
+    "fastestBuildTime": 255
+  }
+]
