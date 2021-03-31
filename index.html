@@ -131,13 +131,23 @@
         .download-example-file .btn:hover {
             text-decoration: underline;
         }
+
+        .buy-me-a-coffee {
+            position: absolute;
+            right: 10px;
+            top: 15px;
+        }
     </style>
 </head>
 <body>
 
 <div class="page-container">
-    <a class="download-example-file" download>
+    <a class="download-example-file" href="https://raw.githubusercontent.com/nemwiz/build-statistics-plugin/main/example-build-log.json" download>
         <button class="btn">Download example file</button>
+    </a>
+
+    <a href="https://www.buymeacoffee.com/nemwiz" target="_blank" class="buy-me-a-coffee">
+        <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 36px !important;width: 120px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
     </a>
 
     <button class="btn draw-border" onclick="clickUploadFile()">Upload log file</button>

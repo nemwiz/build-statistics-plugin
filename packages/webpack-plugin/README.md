@@ -40,6 +40,22 @@ All logs will be summarized on daily basis and you can find the data under `stat
 
 NOTE: You should probably `gitignore` the `stats` folder and all json files inside.
 
+### Logs analysis 📊
+
+After a while you have collected some data and you are probably wondering how to process it and extract insights.
+
+We've got you covered!
+Head over to our [logs analyzer](https://nemwiz.github.io/build-statistics-plugin/) page and upload your `build-summary.json` file.
+
+You can use this tool to visualize your build time and see the progress.
+
+### Did you find this plugin useful?
+
+Show your support. Buy me a coffee. 😎
+
+<a href="https://www.buymeacoffee.com/nemwiz" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+
 ## Plugin options
 
 This plugin is configurable and supports a few options.
