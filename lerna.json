@@ -9,9 +9,7 @@
         "version": {
             "allowBranch": [
                 "main"
-            ],
-            "createRelease": "github",
-            "conventionalCommits": true
+            ]
         },
         "publish": {
             "registry": "https://registry.npmjs.org"

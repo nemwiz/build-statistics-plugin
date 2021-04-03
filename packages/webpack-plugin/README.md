@@ -27,7 +27,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-        new BuildStatisticsPlugin({ projectName: 'dummy-project' })
+        new BuildStatisticsPlugin({ projectName: 'awesome-project' })
     ]
 };
 ```
@@ -66,3 +66,5 @@ This plugin is configurable and supports a few options.
 | `projectName`      | Yes | N/A | Name of your project. It will be saved in the log file. Useful when you have multiple projects. |
 | `logsDirectoryName`      | No |   `stats` | Name of the directory where log files will be stored. |
 | `summaryLogFilename` | No | `build-stats-summary` | Name of the json log file. |
+
+Read more about the [inspiration](https://www.ninkovic.dev/blog/2021/how-to-acquire-more-time-for-technical-tasks) for this plugin.
