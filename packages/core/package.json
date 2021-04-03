@@ -1,6 +1,6 @@
 {
     "name": "@statistics-plugin/core",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "Core package that contains all the logic which is shared across plugins",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
