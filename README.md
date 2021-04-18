@@ -2,6 +2,8 @@
 
 Plugin that keeps a continuous log of your build time.
 
+Read more about the [inspiration](https://www.ninkovic.dev/blog/2021/how-to-acquire-more-time-for-technical-tasks) for this plugin.
+
 ### Use cases
 
 - Can be used as an evidence to show the business (PO's etc.) how slow build times impact the team and hinder
@@ -39,5 +41,3 @@ To run unit and integration tests
 
 `yarn test && yarn test:integration`
 
-
-Read more about the [inspiration](https://www.ninkovic.dev/blog/2021/how-to-acquire-more-time-for-technical-tasks) for this plugin.
